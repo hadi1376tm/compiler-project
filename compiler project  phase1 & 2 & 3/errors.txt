@@ -1,0 +1,52 @@
+entry class Sample1:
+    function main() returns int :
+        var array_size = 10;
+        var array =6;
+        var i = 0 , i2 = 5;
+        if( i ) begin
+            continue;
+            break;
+        end
+        var tmp =  BinarySearch2.doSearch( 0 , array- 1 );
+        while( i < array_size ) begin
+            if( i == array_size / 2 ) begin
+                var j = array;
+                continue;
+            end
+            i++;
+        end
+        flag = 0;
+        while( i < array_size ) begin
+            var val = new BinarySearch().doSearch( 1 , 0 , array - 1 );
+            search = new BinarySearch().doSearch( 0 , array- 1 );
+        end
+        return false;
+    end
+end
+
+
+class BinarySearch inherits Search :
+    private field data int[];
+    private field data2 , data3 , data4  int;
+    private field data2 string;
+    private function doSearch( value : float , _begin : int , _end : int , _ensd : int ,_enzd : int ) returns string:
+        var middle = ( _begin + _end ) / 2;
+        var middle = 6;
+        var foundVal = doSearch( value , _begin , middle );
+        return false;
+    end
+
+    public function find( value : int ) returns int:
+        var value1 = _doSearch( value , 0 , _data - 1 ).toString();
+    end
+
+    public function find( value : int ) returns int:
+        end
+
+
+end
+
+
+class BinarySearch inherits Search :
+
+end

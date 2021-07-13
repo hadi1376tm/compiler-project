@@ -1,0 +1,8 @@
+entry class A:
+    function f() returns int:
+    end
+end
+
+class B:
+    field FUM ferdowsi;
+end
